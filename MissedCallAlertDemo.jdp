@@ -1,0 +1,55 @@
+## RIM Java Development Environment
+# RIM Project file
+AlwaysBuild=0
+[AlxImports
+]
+AutoRestart=0
+[BuildOnlyFiles
+]
+[ClassProtection
+]
+[CustomBuildFiles
+]
+[CustomBuildRules
+]
+[DefFiles
+]
+[DependencyFiles
+]
+[DependsOn
+]
+Description=Detects missed phone calls and creates a recurring audible alert based on active profile settings (7 day trial)
+ExcludeFromBuildAll=0
+[Files
+AboutDialog.java
+AlertDlg.java
+MCAOptionsProperties.java
+MCAOptionsProvider.java
+MCAPhoneListener.java
+MissedCallAlert.java
+SetupDlg.java
+]
+HaveAlxImports=0
+HaveDefs=0
+HaveImports=0
+[Icons
+]
+[ImplicitRules
+]
+[Imports
+]
+Listing=0
+MidletClass=autostartup
+NoImport=0
+Options=-quiet -define=PREPROCESSOR;TRIAL
+OutputFileName=MissedCallAlertDemo
+[PackageProtection
+]
+RibbonPosition=0
+RunOnStartup=1
+StartupTier=7
+SystemModule=1
+Title=Missed Call Alert
+Type=0
+Vendor=MLH Software
+Version=1.0.0.5
